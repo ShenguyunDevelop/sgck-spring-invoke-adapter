@@ -1,0 +1,2 @@
+# sgck-spring-invoke-adapter
+基于spring封装新增amf协议与json协议封装。原理即自定义DispatcherServlet实现ApplicationContextAware完成applicationContext注入，根据传过来的类名和方法名以及参数完成反射并对返回值进行封装AMF返回。
